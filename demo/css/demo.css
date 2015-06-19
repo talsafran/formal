@@ -1,0 +1,72 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "san-serif";
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password],
+select,
+textarea {
+  border-radius: 3px;
+  border: solid 1px black;
+  text-align: left;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 20px;
+  font-family: "Helvetica Neue", "Helvetica", "san-serif";
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+input[type=text].invalid,
+input[type=email].invalid,
+input[type=number].invalid,
+input[type=password].invalid,
+select.invalid,
+textarea.invalid {
+  animation: pop-out-in .15s;
+  border-color: red;
+  color: red;
+}
+
+textarea {
+  width: 100%;
+}
+
+select {
+  -moz-appearance: none;
+  height: 38px;
+  background: transparent;
+  background-image: none;
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  display: inline-block;
+  background-color: green;
+  border-bottom: solid 2px black;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 11px 20px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+@keyframes pop-out-in {
+  0% { transform: scale(0.95, 0.95); }
+  75% { transform: scale(1.03, 1.03); }
+  100% { transform: scale(1.0, 1.0); }
+}

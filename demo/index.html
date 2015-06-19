@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Formal.js – A classier way to validate forms.</title>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="css/demo.css">
+
+  <script src="../lib/formal.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/demo.js"></script>
+</head>
+
+<body>
+  <h1>Formal.js</h1>
+
+  <p>
+    Try to submit this form. It'll only submit if all of the fields validate.
+  </p>
+
+  <form action="https://www.google.com/search?q=javascript%20form%20validation%20talsafran">
+    <input type="text" placeholder="presence" class="validate-presence"><br/ />
+    <input type="text" placeholder="email" class="validate-email"><br />
+    <input type="text" placeholder="number" class="validate-number"><br />
+    <input type="text" placeholder="phone number" class="validate-phone-number"><br />
+    <input type="text" placeholder="length > 1" class="validate-length" data-min-length="2"><br />
+    <input type="text" placeholder="length < 5" class="validate-length" data-max-length="4"><br />
+    <input type="text" placeholder="length > 1, length < 5" class="validate-length" data-min-length="2" data-max-length="4"><br />
+
+    <input type="submit" value="Submit!">
+  </form>
+</body>
+
+</html>
