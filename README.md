@@ -3,6 +3,8 @@ Formal.js
 
 Validate your forms the classier way, using CSS classes and data attributes.
 
+![Formal.js](http://media.giphy.com/media/AeK5hedXN0cAE/giphy.gif "Formal.js")
+
 Why?
 ---------
 
