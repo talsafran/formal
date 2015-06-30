@@ -2,7 +2,7 @@ $(function() {
   Formal.initialize();
 
   $('form').on('validated', function() {
-    alert("congratulations! the form validated. i'll submit it now");
-    Formals.submitForm($form);
+    alert("Congratulations! The form validated. I'll submit it for real now.");
+    Formal.submitForm($form);
   });
 });
