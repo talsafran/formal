@@ -18,10 +18,14 @@ Too many validation libraries require you to write lots of Javascript. Validatin
 </form>
 ```
 
+Behavior
+---------
+
 The form only submits if all fields validate. If the form doesn't validate, three things happen (and three things only!):
-- The cursor gets focused on the first invalid field in the form.
-- Every invalid field gets the `invalid` class. You choose how to style it.
-- Once you start typing in an invalid field, the `invalid` class is removed.
+
+1. Every invalid field gets the `invalid` class. You choose how to style it.
+2. The cursor gets focused on the first invalid field in the form.
+3. Once you start typing in an invalid field, the `invalid` class is removed.
 
 Simple Setup
 --------------------
