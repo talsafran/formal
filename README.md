@@ -21,7 +21,9 @@ Too many validation libraries require you to write lots of Javascript. Validatin
 Behavior
 ---------
 
-The form only submits if all fields validate. If the form doesn't validate, three things happen (and three things only!):
+Your form will only submit if all fields validate.
+
+If the form doesn't validate, three things happen (and three things only!):
 
 1. Every invalid field gets the `invalid` class. You choose how to style it.
 2. The cursor gets focused on the first invalid field in the form.
